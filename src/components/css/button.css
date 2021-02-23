@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+.defalut {
+    border-radius: 6px;
+    width: 81px;
+    height: 36px;
+    background: #E0E0E0;
+    font-family: 'Noto Sans JP', sans-serif;
+    cursor: pointer;
+}
+
+.shadow {
+    box-shadow: 0px 2px 3px rgba(221, 124, 124, 0.2);
+}
+
+.sm {
+    width: 73px;
+    height: 32px;
+}
+
+.md {
+    width: 81px;
+    height: 36px;
+}
+
+.lg {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+
+.default {
+    background: #E0E0E0;
+}
+
+.default:hover {
+    background: #AEAEAE;
+}
+
+.primary {
+    background: #2962FF;
+    color: #FFFFFF;
+}
+
+.primary:hover {
+    background: #0039CB;
+    color: #FFFFFF;
+}
+
+.secondary {
+    background: #455A64;
+    color: #FFFFFF;
+}
+
+.secondary:hover {
+    background: #1C313A;
+    color: #FFFFFF;
+}
+
+.danger {
+    background: #D32F2F;
+    color: #FFFFFF;
+}
+
+.danger:hover {
+    background: #9A0007;
+    color: #FFFFFF;
+
+}
+
+.outline {
+    border: 1px solid #3D5AFE;
+    color: #3D5AFE;
+    background: #FFFFFF;
+}
+
+.outline:hover {
+    background: rgba(41, 98, 255, 0.1);
+}
+
+.text {
+    color: #3D5AFE;
+    background: #FFFFFF;
+    border: none;
+}
+
+.text:hover {
+    background: rgba(41, 98, 255, 0.1);
+    text-align: center;
+}
+
+.default:disabled,.primary:disabled,.secondary:disabled,.danger:disabled,.outline:disabled {
+    color: #9E9E9E;
+    background: #E0E0E0;
+    border: none;
+}
+
+.text:disabled {
+    color: #9E9E9E;
+    background: #FFFFFF;
+}

@@ -1,0 +1,38 @@
+.toggle-label {
+    width: 50px;
+    height: 32px;
+    background-color: #ccc;
+    position: relative;
+    display: inline-block;
+    border-radius: 46px;
+    transition: 0.4s;
+    box-sizing: border-box;
+    text-align: right;
+}
+/*
+label::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 32px;
+    border-radius: 100%;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: 0.4s;
+}
+*/
+input:checked + .toggle-label{
+    background-color: #4BD865;
+}
+
+input:checked + .toggle-label::after {
+    left: 20px;
+}
+
+.toggle-input {
+    display: none;
+}
+
